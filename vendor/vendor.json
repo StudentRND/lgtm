@@ -1,6 +1,12 @@
 {
 	"comment": "",
-	"ignore": "test",
+	"heroku": {
+		"goVersion": "go1.8.1",
+		"install": [
+			"./cmd/lgtm-server/"
+		]
+	},
+	"ignore": "test appengine",
 	"package": [
 		{
 			"checksumSHA1": "h9EtLdks5ODcJVIA+j4qmrW2/mw=",
